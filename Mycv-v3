@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>MY CV</title>
+
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/23b885cdf7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div class="row p-2 bg-light">
+            <div class="col-lg">
+                <div class="container">
+                    <h4 class="text-center">Selamat datang di CV Saya!</h4>
+                </div>
+            </div>
+        </div>
+
+        <navbar class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container">
+                <a href="#" class="navbar-brand">CV Saya</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <a href="#" class="navbar-item nav-link active">HOME</a>
+                        <a href="#myModal1" class="navbar-item nav-link active" data-toggle="modal">ABOUT US</a>
+                        <a href="#myModal2" class="navbar-item nav-link active" data-toggle="modal">CERTIFICATE</a>
+                        <a href="#myModal3" class="navbar-item nav-link active" data-toggle="modal">PORTFOLIO</a>
+                        <a href="#myModal4" class="navbar-item nav-link active" data-toggle="modal">CONTACT</a>
+                    </ul>
+                </div>
+            </div>
+        </navbar>
+
+
+        <!---Ini adalah Jumbotron--->
+        <div class="row">
+            <div class="col-lg">
+                <div class="jumbotron">
+                    <div class="container">
+                        <h4>Hi Perkenalkan nama saya Mohammad Ricky Sanjaya</h4>
+                        <p>Saya adalah seorang Front End Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Ini adala Footer-->
+        <div class="row bg-info p-1">
+            <div class="col-lg">
+                <h5 class="text-center text-white font-weight-bold">Copyright@Sanjaya</h5>
+            </div>
+        </div>
+
+
+        <!-------Ini adalah modal About US------->
+        <div class="modal fade" id="myModal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h4 class="modal-title">ABOUT US</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="page">
+                            <img src="aya.jpg" alt="Profile" class="rounded-circle mx-auto d-block" style="height: 150px; width: 150px; padding-top: 20px;">
+                        </div>
+                        <div class="row bg-secondary mt-2 p-1">
+                            <div class="col-lg">
+                                <h4 class="text-center text-white"><i class="fas fa-address-card" style="padding-right: 7px;"></i>PROFILE</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg">
+                                <table class="table table-hover">
+                                    <tr>
+                                        <td>Nama</td>
+                                        <td>: Moh. Ricky Sanjaya</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tempat, tanggal lahir</td>
+                                        <td>: Brebes, 04 Juni 2002</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Alamat</td>
+                                        <td>: Bekasi, Indonesia</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kewarganegaraan</td>
+                                        <td>: Indonesia</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Status</td>
+                                        <td>: Single</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row bg-secondary mt-2 p-1">
+                            <div class="col-lg">
+                                <h4 class="text-white text-center"><i class="fas fa-school" style="padding-right: 7px;"></i>Pendidikan</h4>
+                                <div class="row bg-white">
+                                    <div class="col-md" style="padding: 10px;">
+                                      <i class="fas fa-graduation-cap" style="font-size: 20px;">2008 - 2014</i>   
+                                      <p style="margin-left: 150px; font-size: 20px;">SDN Gandasari 02</p>        
+                                      <i class="fas fa-graduation-cap" style="font-size: 20px;">2014 - 2017</i>   
+                                      <p style="margin-left: 150px; font-size: 20px;">SMPN 02 Cikarang Barat</p>
+                                      <i class="fas fa-graduation-cap" style="font-size: 20px;">2017 - 2020</i>   
+                                      <p style="margin-left: 150px; font-size: 20px;">SMK 11 Maret Cikarang Barat</p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3 bg-secondary">
+                            <div class="col-lg">
+                                <h4 class="p-1 text-white text-center"><i class="fas fa-project-diagram" style="padding-right: 10px;"></i>Keahlian</h4>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-lg">
+                                <div class="progress" style="height: 20px;">
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="height: 20px; width: 80%;">HTML 80%</div>
+                                </div>
+                                <br>
+                                <div class="progress" style="height: 20px;">
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="height: 20px; width: 60%;">CSS 60%</div>
+                                </div>
+                                <br>
+                                <div class="progress" style="height: 20px;">
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="height: 20px; width: 70%;">Linux Server 70%</div>
+                                </div>
+                                <br>
+                                <div class="progress" style="height: 20px;">
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="height: 20px; width: 70%;">Mikrotik (firewall, routing) 70%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-info" type="button" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---Akhir Modal About US--->
+
+
+
+        <!---Awal Modal Certificate---->
+        <div class="modal fade" id="myModal2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h4 class="modal-title">CERTIFICATE</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="card">
+                                    <img src="css.jpeg" class="card-img-top" style="height: 170px;">
+                                    <div class="card-body">
+                                        <p class="card-text">Sertifikat Kursus Online CSS Sololearn</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="card">
+                                    <img src="html.jpg" class="card-img-top" style="height: 150px;">
+                                    <div class="card-body">
+                                        <p class="card-text">Sertifikat Kursus Online HTML Sololearn</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="card">
+                                    <img src="ubuntu.jpg" class="card-img-top" style="height: 150px;">
+                                    <div class="card-body">
+                                        <p class="card-text">Sertifikat Workshop Ubuntu Server</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="card">
+                                    <img src="actra.jpg" class="card-img-top" style="height: 150px;">
+                                    <div class="card-body">
+                                        <p class="card-text">Sertifikat Training Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="card">
+                                    <img src="gunnebo.jpg" class="card-img-top" style="height: 150px;">
+                                    <div class="card-body">
+                                        <p class="card-text">Sertifikat Magang sebagai IT Support</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="card">
+                                    <img src="sekolah.jpg" class="card-img-top" style="height: 150px;">
+                                    <div class="card-body">
+                                        <p class="card-text">Sertifikat Magang sebagai IT Support</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">CLOSE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Awal Modal Portfolio-->
+        <div class="modal fade" id="myModal3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h4 class="modal-title">PORTFOLIO</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <div class="card-bocy">
+                                <a href="Mycv-v2.html"><img src="cv.png" alt="CV" style="height: 200px; width: 100%;"></a>
+                                <br>
+                                <p class="card-text">CV Sederhana dengan HTML, CSS dan Bootstrap 4</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">CLOSE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Awal Modal Contact-->
+        <div class="modal fade" id="myModal4">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h4 class="modal-title">CONTACT</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Apakah teman-teman punya pertanyaan atau ada sesuatu yang ingin dibicarakan? Silahkan bertanya
+        tinggalkan pesan dibawah ini!
+    </p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-9 mb-lg-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-6">
+                        <div class="lg-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Nama kamu</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6">
+                        <div class="lg-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="lg-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-12">
+
+                        <div class="lg-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Pesan kamu</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Bekasi, Indonesia</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+62 812 1349 0755</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>rickysanjaya411@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">CLOSE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--JS Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
